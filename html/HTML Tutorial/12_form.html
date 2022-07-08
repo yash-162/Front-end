@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML.</title>
+</head>
+
+<body>
+    <header>
+        <h1>Enquiry Form</h1>
+    </header>
+    <main>
+        <form action="action.php">
+            <!-- full name -->
+            <label for="name">
+                Enter your full name:<input type="text" placeholder="Enter your full name" id="name">
+            </label>
+            <br>
+            <br>
+            <!-- contact number -->
+            <label for="number">
+                Enter your number:<input type="number" placeholder="Phone Number" id="number">
+            </label>
+            <br>
+            <br>
+            <!-- select gender -->
+            <label for="">Select your Gender :</label>
+            <br>
+            <label for="gender1">
+                <input type="radio" name="gender" value="male" id="gender1">Male
+            </label>
+            <br>
+            <label for="gender2">
+                <input type="radio" name="gender" value="female" id="gender2">Female
+            </label>
+            <br>
+            <br>
+            <!-- select you skills -->
+            <label for="">Select you skills:</label>
+            <br>
+            <label for="S1">
+                <input type="checkbox" value="coding" id="S1" name="skills">Coding
+            </label>
+            <br>
+            <label for="S2">
+                <input type="checkbox" value="sports" id="S2" name="skills">Sports
+            </label>
+            <br>
+            <label for="S3">
+                <input type="checkbox" value="creative thinking" id="S3" name="skills">Creative Thinking
+            </label>
+            <br>
+            <label for="S4">
+                <input type="checkbox" value="gamer" id="S4" name="skills">Gamer
+            </label>
+            <br>
+            <br>
+            <!-- Select from dropdown -->
+            <label for="city">Select your city:
+                <select name="city" id="city">
+                    <option value="delhi">Delhi</option>
+                    <option value="ahmedabad">Ahmedabad</option>
+                    <option value="surat">Surat</option>
+                    <option value="mumbai">Mumbai</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <!-- take feedback -->
+            <label for="">Note:
+                <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Any note"></textarea>
+            </label>
+            <br>
+            <br>
+            <!-- submit information -->
+            <input type="submit" value="submit">
+        </form>
+    </main>
+    <footer>
+        <br>
+        <a href="index.html">Back To Homepage.</a>
+    </footer>
+</body>
+
+</html>
