@@ -1,26 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-    <title>Front-end</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+  <title>Front-end</title>
 </head>
+
 <body>
-    <section class="hero is-link">
+  <header>
+    <!-- HEADING -->
+    <div class="block has-background-warning-dark p-3">
+      <p class="is-size-2 has-text-white has-text-centered">
+        Yash's track record
+      </p>
+    </div>
+  </header>
+  <br>
+  <main>
+    <!-- OVERALL TABLE -->
+    <div class="block p-3">
+      <table class="table is-striped is-fullwidth is-bordered has-text-centered">
+        <thead>
+          <tr>
+            <th class="has-text-centered">Number</th>
+            <th class="has-text-centered">Topic</th>
+            <th class="has-text-centered">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- HTML -->
+            <td>1.</td>
+            <td><a href="https://yash-162.github.io/Front-end/html/">HTML</a></td>
+            <td>All about HTML tags and their attributes for write the website content.</td>
+          </tr>
+          <!-- BULMA -->
+          <tr>
+            <td>2.</td>
+            <td><a href="https://yash-162.github.io/Front-end/bulma/">Bulma CSS Framework</a></td>
+            <td>All about CSS classes and thier functions to decorate website.</td>
+          </tr>
+          <!-- JAVASCRIPT -->
+          <tr>
+            <td>3.</td>
+            <td><a href="#">JavaScript</a></td>
+            <td>Not yet</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- DAILY UPDATED -->
+    <div class="block">
+      <section class="hero is-warning">
         <div class="hero-body">
           <p class="title">
-            Yash's Homepage
+            Yash's Diary
           </p>
           <p class="subtitle">
-            Projects
+            Daily work record
           </p>
         </div>
-    </section>
-    <h1>Basic of code.</h1>
-    <a href="html">HTML</a>
-    <br>
-    <a href="bulma">Bulma</a>
+      </section>
+    </div>
+
+    <!-- DAILY TASK RECORD -->
+    <div class="block p-3">
+      <table class="table is-striped is-fullwidth is-bordered has-text-centered">
+        <thead>
+          <tr>
+            <th class="has-text-centered">Date</th>
+            <th class="has-text-centered">Link of what I did</th>
+            <th class="has-text-centered">Description</th>
+            <th class="has-text-centered">Starting time</th>
+            <th class="has-text-centered">Ending time</th>
+            <th class="has-text-centered">Time spent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- LINE1 -->
+          <tr>
+            <td>07/07/2022</td>
+            <td><a href="https://yash-162.github.io/Front-end/bulma/2-project.html">Portfolio</a></td>
+            <td>I made my portfolio website by using bulma CSS and HTML</td>
+            <td>06:00 PM</td>
+            <td>11:00 PM</td>
+            <td>5 hours</td>
+          </tr>
+          <!-- LINE2 -->
+          <tr>
+            <td colspan="3">Total hours of day</td>
+            <td colspan="3">5 hours</td>
+          </tr>
+          <!-- LINE3 -->
+          <tr>
+            <td colspan="6"></td>
+          </tr>
+          <!-- LINE4 -->
+          <tr>
+            <td>08/07/2022</td>
+            <td><a href="https://yash-162.github.io/Front-end/bulma/2-project.html">Portfolio</a></td>
+            <td>Solve problems in portfolio and arrange files in gituhub.</td>
+            <td>09:30 AM</td>
+            <td>12:00 AM</td>
+            <td>2.5 hours</td>
+          </tr>
+          <!-- LINE5 -->
+          <tr>
+            <td>08/07/2022</td>
+            <td><a href="https://yash-162.github.io/Front-end/">Home Page</a></td>
+            <td>Made home page using Bulma and html.</td>
+            <td>1:00</td>
+            <td>3:00</td>
+            <td>2 hours</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
 </body>
+
 </html>
